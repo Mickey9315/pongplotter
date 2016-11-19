@@ -10,3 +10,8 @@ ping-%.csv: ping-raw-%.csv
 
 ping-raw-%.csv: logs/ping-%.log
 	./log-to-csv.sh < $< > $@
+
+.PHONE: clean
+
+clean:
+	rm -fv $(PLOTS)
