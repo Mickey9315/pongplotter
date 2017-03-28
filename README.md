@@ -2,8 +2,8 @@
 
 Calculates and plots delays between pings
 
-    $ ping -D pornhub.com > logs/ping-pornhub.log
+    $ ping -D google.com > logs/ping-google.log
     $ make
-    $ feh plots/ping-pornhub.png
+    $ feh plots/ping-google.png
 
 ![](https://pbs.twimg.com/media/Cxe8IUlXcAELxzz.jpg:large)
