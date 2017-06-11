@@ -2,7 +2,7 @@
 
 Calculates and plots delays between pings
 
-    $ ping -D google.com > logs/ping-google.log
+    $ ping -D google.com | tee logs/ping-google.log
     $ make
     $ feh plots/ping-google.png
 
